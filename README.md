@@ -1,2 +1,2 @@
-# Selenium Sample Projhect with NUnit
+# Selenium Sample Project with NUnit
 
