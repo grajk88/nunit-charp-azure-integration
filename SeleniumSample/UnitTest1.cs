@@ -54,6 +54,14 @@ namespace SeleniumSample
             Assert.True(_webDriver.Title.Contains("Google"));
         }
 
+        [Test]
+        [Category("regression")]
+        public void tes5()
+        {
+            _webDriver.Navigate().GoToUrl("https://www.google.com");
+            Assert.True(_webDriver.Title.Contains("Giri"));
+        }
+
         [TearDown]
         public void closeBrowser()
         {
